@@ -198,11 +198,27 @@ img{
     align-self: flex-end;
     padding-bottom: var(--mb-4);
 }
+
 .home__scroll-link{
-    writing-mode: vertical-lr;
-    transform: rotate(-180deg);
     color: var(--white-color);
 }
+.fa-angle-double-down {
+    font-size: calc(14px + 1.5vw);;
+    animation: slide 1s linear infinite;
+}
+.fa-angle-double-down:hover{
+    cursor: pointer;
+}
+@keyframes slide {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+}
+
 .home__img{
     position: absolute;
     right: 0;
