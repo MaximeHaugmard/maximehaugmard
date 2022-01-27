@@ -23,67 +23,79 @@
 
   </head>
   <body>
-      <!--===== HEADER =====-->
-      <header class="l-header">
-        <nav class="nav bd-grid">
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Maxime Haugmard</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">Bio</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class='bx bx-menu'></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+          <h1 class="home__title"><span>BON</span><br>JOUR.</h1>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-link"></i><i class="fas fa-angle-double-down"></i></a>
+          </div>
+
+          <img src="assets/img/perfil.png" alt="" class="home__img">
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">Bio</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/perfil.png" alt="">
+          </div>
+
           <div>
-            <a href="#" class="nav__logo">Maxime Haugmard</a>
-          </div>
-
-          <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-              <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-              <li class="nav__item"><a href="#about" class="nav__link">Bio</a></li>
-              <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-              <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-              <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-            </ul>
-          </div>
-
-          <div class="nav__toggle" id="nav-toggle">
-            <i class='bx bx-menu'></i>
-          </div>
-        </nav>
-      </header>
-
-      <main class="l-main">
-        <!--===== HOME =====-->
-        <section class="home" id="home">
-          <div class="home__container bd-grid">
-            <h1 class="home__title"><span>BON</span><br>JOUR.</h1>
-
-            <div class="home__scroll">
-              <a href="#about" class="home__scroll-link"></i><i class="fas fa-angle-double-down"></i></a>
+            <h2 class="about__subtitle">Maxime Haugmard</h2>
+            <span class="about__profession">💻 Développeur d'application web freelance</span>
+            <div class="about__text">
+              <p>Travailleur nomade depuis 10 ans, en tant que commercial itinérant, j'ai décidé de faire <a
+                  href="https://www.lewagon.com/fr/nantes" target="_blank">la formation du wagon à Nantes</a>
+                pour continuer ma carrière professionnel et déployer une autre passion :</p>
+              <p>le développement web.</p>
+              <p>Rencontrons-nous, pour faire mieux demain.</p>
             </div>
 
-            <img src="assets/img/perfil.png" alt="" class="home__img">
+            <div class="about__social">
+              <a href="https://www.linkedin.com/in/maxime-haugmard" class="about__social-icon" target="_blank"><i
+                  class='bx bxl-linkedin'></i></a>
+              <a href="https://github.com/MaximeHaugmard" class="about__social-icon" target="_blank"><i
+                  class='bx bxl-github'></i></a>
+              <!-- <a href="#" class="about__social-icon"><i class='bx bxl-dribbble' ></i></a> -->
+            </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-          <!--===== ABOUT =====-->
-          <section class="about section" id="about">
-              <h2 class="section-title">About</h2>
-
-              <div class="about__container bd-grid">
-                  <div class="about__img">
-                      <img src="assets/img/perfil.png" alt="">
-                  </div>
-
-                  <div>
-                      <h2 class="about__subtitle">I'am Jhon Doe</h2>
-                      <span class="about__profession">Web designer</span>
-                      <p class="about__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci consectetur, architecto quas fugiat, iste inventore facere repellendus delectus id, vitae blanditiis.</p>
-
-                      <div class="about__social">
-                          <a href="#" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                          <a href="#" class="about__social-icon"><i class='bx bxl-github' ></i></a>
-                          <a href="#" class="about__social-icon"><i class='bx bxl-dribbble' ></i></a>
-                      </div>
-                  </div>
-              </div>
-          </section>
-
-          <!--===== SKILLS =====-->
+            <!--===== SKILLS =====-->
+            <!-- <p> 👨‍💻 Technologies utilisées : </p>
+            <p>Ruby, Ruby ​​on rails, html, css, postgresql, heroku, clevercloud, git & github ,shopify, bootstrap, wordpress.</p>
+            <p>🧰 Outils utilisés : </p>
+            <p>Notion, Slack, Loom, Zapier, Typeform, Miro, Figma</p> -->
           <section class="skills section" id="skills">
               <h2 class="section-title">Skills</h2>
 
