@@ -137,11 +137,12 @@ img{
         padding: 2rem;
         background-color: rgba(255,255,255,.3);
         transition: .5s;
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(15px);
     }
 }
 .nav__item{
     margin-bottom: var(--mb-4);
+    color: var(--dark-color);
 }
 .nav__link{
     position: relative;
@@ -190,7 +191,7 @@ img{
     font-size: var(--big-font-size);
     color: var(--white-color);
     line-height: .8;
-    z-index: 10000000;
+    z-index: 1;
 }
 .home__title span{
     text-shadow: 0 20px 25px rgba(0,0,0,.5);
@@ -251,12 +252,15 @@ img{
     color: var(--first-color);
     margin-bottom: var(--mb-1);
 }
-.about__text{
-    margin-bottom: var(--mb-4);
-}
 .about__profession{
     display: block;
     margin-bottom: var(--mb-4);
+}
+.about__text{
+    margin-bottom: var(--mb-4);
+}
+.about__baseline {
+  margin-top: var(--mb-2);
 }
 .about__social-icon{
     font-size: 1.4rem;
