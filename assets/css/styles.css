@@ -313,6 +313,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: rgba(255,255,255,.3);
     border-radius: .5rem;
     cursor: pointer;
@@ -323,19 +324,16 @@ img{
     bottom: 0;
 }
 .portfolio__link-name{
+    color: var(--white-color);
+    text-align: center;
+    padding-bottom: var(--mb-1);
+}
+.portfolio__link-detail{
     color: var(--dark-color);
+    font-weight: 900;
 }
 
 /* ===== CONTACT =====*/
-/* .contact__container{
-    max-width: 1024px;
-    justify-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-left: var(--mb-2);
-    margin-right: var(--mb-2);
-} */
-
 .contact__info{
   margin-bottom: 2rem;
   display: flex;
