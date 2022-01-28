@@ -421,18 +421,11 @@ img{
     color: var(--white-color);
     margin-bottom: var(--mb-2);
 }
-.footer__link{
-    padding: .25rem 0;
-}
-.footer__link:hover{
-    color: var(--first-color);
-}
-.footer__social{
-    font-size: 1.4rem;
-    margin-right: var(--mb-1);
-}
-.footer__social:hover{
-    color: var(--first-color);
+.text-bottom{
+  text-align: left;
+  margin-top: var(--mb-2);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
 }
 
 /* ===== MEDIA QUERIES =====*/
@@ -521,8 +514,11 @@ img{
     }
 
     .footer__container{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
+    }
+    .text-bottom{
+      text-align: center;
     }
 }
 
