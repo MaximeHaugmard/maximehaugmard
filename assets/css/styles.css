@@ -7,7 +7,7 @@
     --font-medium: 500;
 }
 
-/*===== Colores =====*/
+/*===== COLOR =====*/
 :root{
     --first-color: #2D46B9;
     --white-color: #F8F8F8;
@@ -15,7 +15,7 @@
     --text-color: #697477;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== FONT =====*/
 :root{
     --body-font: 'Montserrat', sans-serif;
     --big-font-size: 6.25rem;
@@ -32,7 +32,7 @@
     }
 }
 
-/*===== Margenes =====*/
+/*===== MARGIN =====*/
 :root{
     --mb-1: .5rem;
     --mb-2: 1rem;
@@ -412,6 +412,7 @@ img{
 /* ===== FOOTER=====*/
 .footer{
     background-color: var(--dark-color);
+    padding-bottom: var(--mb-1);
 }
 .footer__container{
     row-gap: 2rem;
@@ -421,18 +422,20 @@ img{
     color: var(--white-color);
     margin-bottom: var(--mb-2);
 }
-.footer__link{
-    padding: .25rem 0;
+.text-bottom{
+  text-align: left;
+  margin-top: var(--mb-4);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
 }
-.footer__link:hover{
-    color: var(--first-color);
+
+/* ===== MENTIONS LEGALES=====*/
+.mentions-légales{
+  margin: 0 var(--mb-4);
 }
-.footer__social{
-    font-size: 1.4rem;
-    margin-right: var(--mb-1);
-}
-.footer__social:hover{
-    color: var(--first-color);
+.mentions-legales-title {
+  text-align: center;
+  padding-bottom: var(--mb-4);
 }
 
 /* ===== MEDIA QUERIES =====*/
@@ -521,8 +524,14 @@ img{
     }
 
     .footer__container{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
+    }
+    .text-bottom{
+      text-align: right;
+    }
+    .mentions-legales-title {
+      padding: var(--mb-4) 0;
     }
 }
 
