@@ -1,4 +1,4 @@
-/*===== MENU SHOW =====*/ 
+/*===== MENU SHOW =====*/
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
@@ -75,6 +75,30 @@ sr.reveal('.contact__text', {interval: 200})
 sr.reveal('.contact__input', {delay: 400})
 sr.reveal('.contact__button', {delay: 600})
 
+/*SCROLL TO TOP*/
+const target = document.getElementById("contact");
+
+const scrollToTopBtn = document.querySelector(".scrollToTopBtn");
+const rootElement = document.documentElement;
+
+function callback(entries, observer) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      scrollToTopBtn.classList.add("showBtn");
+    } else {
+      scrollToTopBtn.classList.remove("showBtn");
+    }
+  });
+}
+
+function scrollToTop() {
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+scrollToTopBtn.addEventListener("click", scrollToTop);
 
 
-
+let observer = new IntersectionObserver(callback);
+observer.observe(target);

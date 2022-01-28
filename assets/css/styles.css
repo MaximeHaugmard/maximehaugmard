@@ -409,6 +409,26 @@ img{
     transition-delay: 0s;
 }
 
+.scrollToTopBtn {
+  cursor: pointer;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 100;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.5s ease;
+}
+.scrollToTopBtn i {
+  font-size: var(--mb-4);
+  transform: rotate(-90deg);
+}
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* ===== FOOTER=====*/
 .footer{
     background-color: var(--dark-color);
@@ -525,7 +545,10 @@ img{
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
     }
-
+    .scrollToTopBtn i{
+        font-size: 4rem;
+        bottom: 60px;
+    }
     .footer__container{
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
