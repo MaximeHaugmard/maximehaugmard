@@ -7,7 +7,7 @@
     --font-medium: 500;
 }
 
-/*===== Colores =====*/
+/*===== COLOR =====*/
 :root{
     --first-color: #2D46B9;
     --white-color: #F8F8F8;
@@ -15,7 +15,7 @@
     --text-color: #697477;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== FONT =====*/
 :root{
     --body-font: 'Montserrat', sans-serif;
     --big-font-size: 6.25rem;
@@ -32,7 +32,7 @@
     }
 }
 
-/*===== Margenes =====*/
+/*===== MARGIN =====*/
 :root{
     --mb-1: .5rem;
     --mb-2: 1rem;
@@ -412,6 +412,7 @@ img{
 /* ===== FOOTER=====*/
 .footer{
     background-color: var(--dark-color);
+    padding-bottom: var(--mb-1);
 }
 .footer__container{
     row-gap: 2rem;
@@ -423,9 +424,18 @@ img{
 }
 .text-bottom{
   text-align: left;
-  margin-top: var(--mb-2);
+  margin-top: var(--mb-4);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
+}
+
+/* ===== MENTIONS LEGALES=====*/
+.mentions-légales{
+  margin: 0 var(--mb-4);
+}
+.mentions-legales-title {
+  text-align: center;
+  padding-bottom: var(--mb-4);
 }
 
 /* ===== MEDIA QUERIES =====*/
@@ -518,7 +528,10 @@ img{
         justify-items: center;
     }
     .text-bottom{
-      text-align: center;
+      text-align: right;
+    }
+    .mentions-legales-title {
+      padding: var(--mb-4) 0;
     }
 }
 
