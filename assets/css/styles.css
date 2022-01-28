@@ -184,10 +184,9 @@ img{
 }
 .home__container{
     height: calc(100vh - var(--header-height));
-    row-gap: 5rem;
 }
 .home__title{
-    align-self: flex-end;
+    align-self: center;
     font-size: var(--big-font-size);
     color: var(--white-color);
     line-height: .8;
@@ -199,6 +198,7 @@ img{
 .home__scroll{
     align-self: flex-end;
     padding-bottom: var(--mb-4);
+    z-index: 1;
 }
 
 .home__scroll-link{
@@ -489,6 +489,9 @@ img{
         grid-template-rows: 1.7fr 1fr;
         row-gap: 0;
     }
+    .home__title{
+        align-self: flex-end;
+    }
     .home__img{
         width: 524px;
         right: 10%;
@@ -549,6 +552,5 @@ img{
     }
     .home__img {
         width: 500px;
-        right: 24%;
     }
 }
