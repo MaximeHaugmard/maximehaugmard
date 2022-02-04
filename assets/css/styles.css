@@ -449,6 +449,16 @@ img{
   margin-right: var(--mb-2);
 }
 
+.footer p {
+  color: #EAEAEA;
+}
+.footer li a{
+  color: #EAEAEA;
+}
+.footer span a{
+  color: #EAEAEA;
+}
+
 /* ===== MENTIONS LEGALES=====*/
 .mentions-légales{
   margin: 0 var(--mb-4);
