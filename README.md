@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Maxime</h1>
 <h3 align="center">💻 Développeur d'application web freelance - Nantes, France -</h3>
 
-<a href="https://github.com/ryo-ma/github-profile-trophy" alt="maximehaugmard">Linkedin</a>
+<a href="https://github.com/ryo-ma/github-profile-trophy">Linkedin</a>
 
 - 🌱 I’m currently learning **Rails**
 
