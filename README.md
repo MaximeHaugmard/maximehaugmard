@@ -3,8 +3,6 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=maximehaugmard" alt="maximehaugmard" /></a> </p>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=maximehaugmard-ma&theme=chalk)](https://github.com/ryo-ma/github-profile-trophy)
-
 - 🌱 I’m currently learning **Rails**
 
 <h3 align="left">Languages and Tools:</h3>
